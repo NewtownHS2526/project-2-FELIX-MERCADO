@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 5 Project</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body class="bg-white">
     <header>
-      <nav class="bg-green-500 p-6 text-center gap-4">
-        <a href="index.html" class="bg-white rounded p-4">Home</a>
-        <a href="page2.html" class="bg-white rounded p-4">Page 2</a>
-        <a href="page3.html" class="bg-white rounded p-4">Page 3</a>
-        <a href="page4.html" class="bg-white rounded p-4">Page 4</a>
-        <a href="page5.html" class="bg-blue-500 text-white rounded p-4">Page 5</a>
+      <nav class="bg-green-500 p-6 text-center flex gap-4">
+        <a href="index.html" class="nav">Home</a>
+        <a href="page2.html" class="nav">Page 2</a>
+        <a href="page3.html" class="nav">Page 3</a>
+        <a href="page4.html" class="nav">Page 4</a>
+        <a href="page5.html" class="nav1" aria-current="page">Page 5</a>
       </nav>
     </header>
     <main>
@@ -31,18 +32,6 @@
       <img src="cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter.png" alt="C logo" class="w-80 m-4">
     </div>
 
-
-    <div class="bg-white p-6 flex flex-row">
-      <div class="flex flex-col">
-          <h1 class="text-2xl bg-green-500 rounded p-4 mb-4">What is the story of the language?</h1>
-          <p>A successor to the programming language B, C was originally developed at Bell Labs by Ritchie between 1972 and 1973 to construct utilities running on Unix. It was applied to re-implementing the kernel of the Unix operating system.[12] During the 1980s, C gradually gained popularity. It has become one of the most widely used programming languages,[13][14] with C compilers available for practically all modern computer architectures and operating systems. The book The C Programming Language, co-authored by the original language designer, served for many years as the de facto standard for the language.[15][1] C has been standardized since 1989 by the American National Standards Institute (ANSI) and, subsequently, jointly by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC). </p>>        
-      </div>
-      <figure>
-        <img src="Ken_Thompson_and_Dennis_Ritchie--1973.jpg" alt="Creaor of C" class="w-80 m-4">
-        <figcaption>Dennis Ritchie (right), the inventor of the C programming language, with Ken Thompson</figcaption>
-      </figure>
-    </div>
-
     <div class="bg-white p-6 flex flex-row">
     
     <img src="Untitled-1.png" alt="C" class="w-80 m-4">
@@ -52,15 +41,29 @@
         </div>
     </div>
 
+
+    <div class="bg-white p-6 flex flex-row gap-8">
+      <div class="flex flex-col">
+          <h1 class="text-2xl bg-green-500 rounded p-4 mb-4">What is the story of the language?</h1>
+          <p>A successor to the programming language B, C was originally developed at Bell Labs by Ritchie between 1972 and 1973 to construct utilities running on Unix. It was applied to re-implementing the kernel of the Unix operating system.[12] During the 1980s, C gradually gained popularity. It has become one of the most widely used programming languages,[13][14] with C compilers available for practically all modern computer architectures and operating systems. The book The C Programming Language, co-authored by the original language designer, served for many years as the de facto standard for the language.[15][1] C has been standardized since 1989 by the American National Standards Institute (ANSI) and, subsequently, jointly by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC).</p>        
+      </div>
+      <figure>
+        <img src="Ken_Thompson_and_Dennis_Ritchie--1973.jpg" alt="Creator of C" class="w-80 m-4">
+        <figcaption>Dennis Ritchie (right), the inventor of the C programming language, with Ken Thompson</figcaption>
+      </figure>
+    </div>
+
     <div class="bg-white p-6 flex flex-col">
       <h1 class="text-2xl bg-green-500 rounded p-4 mb-4 text-center">Hello World in C</h1>
-      <img src="635859841501574659_f04eec892a.webp" alt="c" class="w-80 m-4 items-center">
+      <div class=" flex justify-center">
+      <img src="635859841501574659_f04eec892a.webp" alt="c" class="w-80 m-4">
+      </div>
     </div>
 </main>
-    <footer class="text-center bg-green-700 flex justify-around">
-  <p>Contacto: proyectohub@example.com</p>
-  <time datetime="2025-02-01">Última actualización: Feb 1, 2025</time>
-  <small>&copy; 2025 Project Hub</small>
-    </footer>
+  <footer class="text-center bg-green-700 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+    <p class="card">Contact: felixm8307@nycstudents.net</p> <!--My contact and footer with a good style for each page with the last time of update-->
+    <small class="card">&copy; 2025 Project Hub</small>
+    <small class="card">Last updated: <time datetime="2025-11-15">November 15, 2025</time></small>
+  </footer>
   </body>
 </html>

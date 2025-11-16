@@ -1,0 +1,45 @@
+
+.nav1 {
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/*To know in what page you are*/
+
+.nav {
+    background-color: #ffffff;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: rgb(57, 136, 255);
+    color: white;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.btn-secondary {
+    background-color: gray;
+    color: gainsboro;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.btn-primary {
+  @apply bg-blue-500 text-white px-4 rounded;
+}
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 px-4 rounded;
+}
+
+/*This does not works with cdn tailwind but the read.md need it so I put a normal css and this*/

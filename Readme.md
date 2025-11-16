@@ -18,7 +18,7 @@ Create a five-page mini site powered by Tailwind CSS. Each page highlights a top
 6. **Media Content**: Include at least one image, embedded video, or audio element somewhere in the site. Use Tailwind utilities to style media responsively.
 7. **Accessibility**: Provide meaningful alt text, ensure color contrast, and add `aria` or landmark attributes where helpful. Verify keyboard navigation works.
 8. **Footer Content**: Every footer should include contact information or social links plus the last-updated date using the `<time>` element.
-9. **Bonus Tailwind Feature**: Demonstrate one Tailwind plugin or advanced utility (dark mode toggle, aspect ratio, typography plugin, etc.). Document what you chose in a comment.
+9. **Bonus Tailwind Feature**: Demonstrate one Tailwind plugin or advanced utility (dark mode toggle, aspect ratio, typography plugin, etc.). Document what you chose in a comment. 
 
 ## Stretch Challenges (pick at least two)
 - Add a “featured” carousel or gallery using Tailwind and minimal JavaScript.
@@ -35,3 +35,26 @@ Create a five-page mini site powered by Tailwind CSS. Each page highlights a top
 - README updated with any notes, credits for resources, and the stretch challenges you attempted.
 
 Happy building—push your creativity, explore new HTML elements, and make sure the experience feels cohesive across all pages!
+
+
+Stretch challenges I did
+
+- Use the `<dialog>` element for a modal pop-up and style it with Tailwind.
+
+- Create a simple contact form that validates required fields using HTML attributes only.
+
+All resource
+
+- https://en.wikipedia.org/wiki/Python_(programming_language)
+
+- https://www.tutorialspoint.com/python/python_history.htm
+
+- https://en.wikipedia.org/wiki/JavaScript
+
+- https://en.wikipedia.org/wiki/Java_(programming_language)
+
+- https://en.wikipedia.org/wiki/C_(programming_language)
+
+The plugin that I used, was aspect-ratio that comes with cdn
+
+This is the final page finished in 11/15/2025
